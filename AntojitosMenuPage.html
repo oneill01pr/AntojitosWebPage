@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Antojitos del Caribe Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+</head>
+<body>
+<script src="menuImgJscript.js"></script>
+<div class="header">
+  <h1>Antojitos del Caribe</h1>
+  <p>Authentic Caribbean Cuisine.</p>
+</div>
+
+<div class="navbar">
+  <a href="AntojitosHomePage.html">Home</a>
+  <a href="AntojitosMenuPage.html">Menu</a>
+  <a href="AntojitosLocationPage.html">Location</a>
+  <a href="#" class="right">About Us</a>
+</div>
+
+<div style="text-align:center">
+  <h2>Menu</h2>
+  <p>Click on the images below to enlarge:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="food_truck.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="food_truck.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="food_truck.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="food_truck.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
